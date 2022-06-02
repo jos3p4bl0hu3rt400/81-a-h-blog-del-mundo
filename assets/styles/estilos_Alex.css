@@ -20,6 +20,7 @@ article {
 #titulo_del_blog {
     text-align: center;
     font-size: 3rem;
+    color:white;
 }
 
 /*ACABA ESTILOS DE ID: #TITULO_DEL_BLOG*/
@@ -90,7 +91,6 @@ section {
 
     gap: 3rem;
 
-    section>header
 }
 
 section>header {
@@ -111,4 +111,10 @@ section>aside {
 section>footer {
     grid-column: span 12;
 
+}
+
+aside{
+    color:black;
+    background-color: beige;
+    padding: 30px;
 }
