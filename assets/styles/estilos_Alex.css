@@ -115,8 +115,9 @@ section>footer {
 
 aside{
     color:black;
-    background-color: beige;
+    background-color: gray;
     padding: 30px;
+    border-radius: 15px;
 }
 
 nav>ul>li>a {
@@ -137,7 +138,7 @@ nav>ul {
     border-bottom: 1px solid #fff;
 
     padding-bottom: 0.5rem;
-    font-size: 1rem;
+    font-size: 2rem;
     
 }
  
@@ -160,6 +161,7 @@ article>header>hgroup>h2>img {
     display: flexbox; 
     align-items: center;
     justify-content: space-between;
+    fonnt-size: 1.3rem;
 
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -168,3 +170,35 @@ article>header>hgroup>h2>img {
     font-size: 1.3rem;
 
 }
+
+#footer_blog div:nth-child(2) {
+    font-size: 0.9rem;
+}
+
+aside>h2 {
+    text-align: center;
+    font-size: 1.3rem;
+
+}
+
+aside>div {
+   background-color: grey;
+   display: flex;
+   
+   
+}
+
+aside>div>img {
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 50%;
+    margin: 1rem;
+    
+}
+
+aside>h2>p {
+    display: left;
+    justify-content: space-between; 
+}
+
+
